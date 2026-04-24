@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Reveal from "./Reveal";
 import ShowMore from "./ShowMore";
 import knots from "@/content/knots.json";
 
 type Knot = (typeof knots)[number];
+type VideoMode = "animated" | "real";
 
 const PREVIEW_COUNT = 6;
 
@@ -35,8 +36,8 @@ export default function KnotsSection() {
           <p className="eyebrow">01 — Essentials</p>
           <h2 className="section-heading mt-3">Knots that cover almost every day on the water.</h2>
           <p className="mt-4 max-w-2xl text-ink/75">
-            Tap a knot to see the step-by-step and a demo video. Learn these cold and
-            you&rsquo;ll lose fewer fish, faster.
+            Tap a knot to see the step-by-step plus an animated and a real-life
+            demo video. Learn these cold and you&rsquo;ll lose fewer fish, faster.
           </p>
         </Reveal>
 
@@ -85,6 +86,32 @@ export default function KnotsSection() {
 }
 
 function KnotModal({ knot, onClose }: { knot: Knot; onClose: () => void }) {
+  const [mode, setMode] = useState<VideoMode>("animated");
+  const touchStartX = useRef<number | null>(null);
+  const touchStartY = useRef<number | null>(null);
+
+  const current = mode === "animated"
+    ? { id: knot.animatedYoutubeId, title: knot.animatedVideoTitle }
+    : { id: knot.youtubeId, title: knot.videoTitle };
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    const t = e.touches[0];
+    touchStartX.current = t.clientX;
+    touchStartY.current = t.clientY;
+  };
+
+  const onTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current == null || touchStartY.current == null) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - touchStartX.current;
+    const dy = t.clientY - touchStartY.current;
+    touchStartX.current = null;
+    touchStartY.current = null;
+    if (Math.abs(dx) < 50 || Math.abs(dx) < Math.abs(dy)) return;
+    if (dx < 0 && mode === "animated") setMode("real");
+    else if (dx > 0 && mode === "real") setMode("animated");
+  };
+
   return (
     <div
       role="dialog"
@@ -121,16 +148,60 @@ function KnotModal({ knot, onClose }: { knot: Knot; onClose: () => void }) {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 p-6 overflow-y-auto">
-          <div className="aspect-video rounded-xl overflow-hidden bg-black">
-            <iframe
-              loading="lazy"
-              src={`https://www.youtube-nocookie.com/embed/${knot.youtubeId}?rel=0`}
-              title={knot.videoTitle}
-              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="h-full w-full"
-            />
+          <div>
+            <div
+              role="tablist"
+              aria-label="Video style"
+              className="inline-flex rounded-full border border-ocean/15 bg-ocean/5 p-1 text-xs font-medium"
+            >
+              <button
+                type="button"
+                role="tab"
+                aria-selected={mode === "animated"}
+                onClick={() => setMode("animated")}
+                className={`rounded-full px-3 py-1.5 transition ${
+                  mode === "animated"
+                    ? "bg-coral text-paper shadow-sm"
+                    : "text-ocean hover:text-ocean-deep"
+                }`}
+              >
+                Animated
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={mode === "real"}
+                onClick={() => setMode("real")}
+                className={`rounded-full px-3 py-1.5 transition ${
+                  mode === "real"
+                    ? "bg-coral text-paper shadow-sm"
+                    : "text-ocean hover:text-ocean-deep"
+                }`}
+              >
+                Real life
+              </button>
+            </div>
+            <p className="mt-2 text-xs text-ink/55 md:hidden">
+              Swipe the video to switch.
+            </p>
+
+            <div
+              className="mt-3 aspect-video rounded-xl overflow-hidden bg-black select-none touch-pan-y"
+              onTouchStart={onTouchStart}
+              onTouchEnd={onTouchEnd}
+            >
+              <iframe
+                key={current.id}
+                loading="lazy"
+                src={`https://www.youtube-nocookie.com/embed/${current.id}?rel=0`}
+                title={current.title}
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="h-full w-full"
+              />
+            </div>
           </div>
+
           <ol className="space-y-3 text-ink/85">
             {knot.steps.map((s, i) => (
               <li key={i} className="flex gap-3">

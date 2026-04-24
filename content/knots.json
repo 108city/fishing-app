@@ -12,7 +12,9 @@
       "Trim the tag end, leaving roughly 2 mm."
     ],
     "youtubeId": "HCjaUcdRDR0",
-    "videoTitle": "Salt Strong — How To Tie The Clinch Knot Video Tutorial"
+    "videoTitle": "Salt Strong — How To Tie The Clinch Knot Video Tutorial",
+    "animatedYoutubeId": "0JpZlOf_5JI",
+    "animatedVideoTitle": "Animated Knots by Grog — Improved Clinch Knot"
   },
   {
     "id": "palomar",
@@ -27,7 +29,9 @@
       "Trim the tag end close."
     ],
     "youtubeId": "TFk_Ktw2f1w",
-    "videoTitle": "Salt Strong — Palomar Knot: Quick Tutorial"
+    "videoTitle": "Salt Strong — Palomar Knot: Quick Tutorial",
+    "animatedYoutubeId": "GZpPJB-EwUc",
+    "animatedVideoTitle": "Animated Knots by Grog — Palomar Knot"
   },
   {
     "id": "uni",
@@ -42,7 +46,9 @@
       "Trim the tag end."
     ],
     "youtubeId": "3lchV7Ikh1U",
-    "videoTitle": "NetKnots — How to tie the Uni Knot"
+    "videoTitle": "NetKnots — How to tie the Uni Knot",
+    "animatedYoutubeId": "Mr1ngSO5jvQ",
+    "animatedVideoTitle": "Animated Knots by Grog — Uni Knot"
   },
   {
     "id": "blood",
@@ -57,7 +63,9 @@
       "Trim both tag ends close to the knot."
     ],
     "youtubeId": "A_XJPYTilYI",
-    "videoTitle": "NetKnots — How to tie the Blood Knot"
+    "videoTitle": "NetKnots — How to tie the Blood Knot",
+    "animatedYoutubeId": "OCkv0LRcRm0",
+    "animatedVideoTitle": "Animated Knots by Grog — Blood Knot"
   },
   {
     "id": "non-slip-loop",
@@ -72,7 +80,9 @@
       "Pull the standing line to seat the knot, leaving the loop intact. Trim the tag."
     ],
     "youtubeId": "C0u5HQBiv_I",
-    "videoTitle": "Salt Strong — How To Tie A Non-Slip Loop Knot"
+    "videoTitle": "Salt Strong — How To Tie A Non-Slip Loop Knot",
+    "animatedYoutubeId": "hRcyz3Z1F6c",
+    "animatedVideoTitle": "Animated Knots by Grog — Non-Slip Loop Knot"
   },
   {
     "id": "double-uni",
@@ -88,7 +98,9 @@
       "Trim both tag ends close."
     ],
     "youtubeId": "JJDjr-_Pw_U",
-    "videoTitle": "NetKnots — How to tie the Double Uni Knot"
+    "videoTitle": "NetKnots — How to tie the Double Uni Knot",
+    "animatedYoutubeId": "wqWfsAKHrUI",
+    "animatedVideoTitle": "Animated Knots by Grog — Double Uni Knot"
   },
   {
     "id": "fg-knot",
@@ -104,7 +116,9 @@
       "Trim the braid tag close. The finished knot should be slim and feel smooth when run between your fingers."
     ],
     "youtubeId": "WrazkHkEnQU",
-    "videoTitle": "Salt Strong — How To Tie The FG Knot"
+    "videoTitle": "Salt Strong — How To Tie The FG Knot",
+    "animatedYoutubeId": "SBdXZ7nQO1Q",
+    "animatedVideoTitle": "Animated Knots — FG Knot Step-by-Step"
   },
   {
     "id": "albright",
@@ -120,7 +134,9 @@
       "Trim both tag ends close."
     ],
     "youtubeId": "5tH7r6Vno-w",
-    "videoTitle": "NetKnots — How to tie the Albright Knot"
+    "videoTitle": "NetKnots — How to tie the Albright Knot",
+    "animatedYoutubeId": "rHnVpYUvQqM",
+    "animatedVideoTitle": "Animated Knots by Grog — Albright Knot"
   },
   {
     "id": "surgeons",
@@ -136,7 +152,9 @@
       "Trim both tag ends close."
     ],
     "youtubeId": "AcUmsl5Sk_o",
-    "videoTitle": "NetKnots — How to tie the Double Surgeon's Knot"
+    "videoTitle": "NetKnots — How to tie the Double Surgeon's Knot",
+    "animatedYoutubeId": "fMxwnhlnBhk",
+    "animatedVideoTitle": "Animated Knots by Grog — Surgeon's Knot"
   },
   {
     "id": "snell",
@@ -152,7 +170,9 @@
       "Trim the tag end close to the wraps."
     ],
     "youtubeId": "_xGAg-WEpbY",
-    "videoTitle": "NetKnots — How to tie the Snell Knot"
+    "videoTitle": "NetKnots — How to tie the Snell Knot",
+    "animatedYoutubeId": "ZRz0n2_-jpk",
+    "animatedVideoTitle": "Animated Knots by Grog — Snell Knot"
   },
   {
     "id": "dropper-loop",
@@ -168,6 +188,8 @@
       "Attach a hook or short snood to the loop using a loop-to-loop connection."
     ],
     "youtubeId": "VlBJTIINIIs",
-    "videoTitle": "NetKnots — How to tie the Dropper Loop"
+    "videoTitle": "NetKnots — How to tie the Dropper Loop",
+    "animatedYoutubeId": "tZpKjV4EZcI",
+    "animatedVideoTitle": "Animated Knots by Grog — Dropper Loop"
   }
 ]
