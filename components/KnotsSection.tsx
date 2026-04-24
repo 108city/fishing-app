@@ -2,9 +2,12 @@
 
 import { useEffect, useState } from "react";
 import Reveal from "./Reveal";
+import ShowMore from "./ShowMore";
 import knots from "@/content/knots.json";
 
 type Knot = (typeof knots)[number];
+
+const PREVIEW_COUNT = 6;
 
 export default function KnotsSection() {
   const [active, setActive] = useState<Knot | null>(null);
@@ -30,48 +33,50 @@ export default function KnotsSection() {
       <div className="container-narrow">
         <Reveal>
           <p className="eyebrow">01 — Essentials</p>
-          <h2 className="section-heading mt-3">Five knots that cover 95% of days on the water.</h2>
+          <h2 className="section-heading mt-3">Knots that cover almost every day on the water.</h2>
           <p className="mt-4 max-w-2xl text-ink/75">
             Tap a knot to see the step-by-step and a demo video. Learn these cold and
             you&rsquo;ll lose fewer fish, faster.
           </p>
         </Reveal>
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {knots.map((k, i) => (
-            <Reveal key={k.id} delay={i * 60}>
-              <button
-                onClick={() => setActive(k)}
-                className="card group text-left w-full overflow-hidden hover:shadow-lift focus:shadow-lift"
-                aria-label={`Open instructions for ${k.name}`}
-              >
-                <div className="relative aspect-[16/10] overflow-hidden bg-ocean/5">
-                  <img
-                    src={`https://i.ytimg.com/vi/${k.youtubeId}/hqdefault.jpg`}
-                    alt=""
-                    loading="lazy"
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
-                  />
-                  <div
-                    className="absolute inset-0"
-                    style={{
-                      background:
-                        "linear-gradient(180deg, transparent 40%, rgba(15,76,92,0.55) 100%)"
-                    }}
-                    aria-hidden
-                  />
-                  <span className="absolute bottom-3 left-3 rounded-full bg-paper/90 px-3 py-1 text-xs font-medium text-ocean">
-                    Watch & learn
-                  </span>
-                </div>
-                <div className="p-5">
-                  <h3 className="font-display text-xl text-ocean">{k.name}</h3>
-                  <p className="mt-2 text-sm text-ink/75">{k.useCase}</p>
-                </div>
-              </button>
-            </Reveal>
-          ))}
-        </div>
+        <ul className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <ShowMore previewCount={PREVIEW_COUNT} itemLabel="knots">
+            {knots.map((k, i) => (
+              <Reveal key={k.id} as="li" delay={(i % PREVIEW_COUNT) * 60}>
+                <button
+                  onClick={() => setActive(k)}
+                  className="card group text-left w-full overflow-hidden hover:shadow-lift focus:shadow-lift"
+                  aria-label={`Open instructions for ${k.name}`}
+                >
+                  <div className="relative aspect-[16/10] overflow-hidden bg-ocean/5">
+                    <img
+                      src={`https://i.ytimg.com/vi/${k.youtubeId}/hqdefault.jpg`}
+                      alt=""
+                      loading="lazy"
+                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+                    />
+                    <div
+                      className="absolute inset-0"
+                      style={{
+                        background:
+                          "linear-gradient(180deg, transparent 40%, rgba(15,76,92,0.55) 100%)"
+                      }}
+                      aria-hidden
+                    />
+                    <span className="absolute bottom-3 left-3 rounded-full bg-paper/90 px-3 py-1 text-xs font-medium text-ocean">
+                      Watch & learn
+                    </span>
+                  </div>
+                  <div className="p-5">
+                    <h3 className="font-display text-xl text-ocean">{k.name}</h3>
+                    <p className="mt-2 text-sm text-ink/75">{k.useCase}</p>
+                  </div>
+                </button>
+              </Reveal>
+            ))}
+          </ShowMore>
+        </ul>
       </div>
 
       {active && <KnotModal knot={active} onClose={() => setActive(null)} />}

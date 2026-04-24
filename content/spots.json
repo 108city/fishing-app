@@ -98,5 +98,105 @@
     "description": "Sheltered harbour wall fishing at the eastern end of False Bay. Hottentot, steentjies and panga are the regulars. Good winter spot when the south-easter is blowing.",
     "beginnerFriendly": true,
     "permit": "Recreational saltwater permit required."
+  },
+  {
+    "id": "bloubergstrand",
+    "name": "Bloubergstrand",
+    "type": "Surf",
+    "lat": -33.8053,
+    "lng": 18.4661,
+    "description": "Iconic Atlantic surf beach with the Table Mountain view. White steenbras, kob and elf along the trough. Often blown clean by the south-easter, so pick your day.",
+    "beginnerFriendly": true,
+    "permit": "Recreational saltwater permit required."
+  },
+  {
+    "id": "melkbosstrand",
+    "name": "Melkbosstrand",
+    "type": "Surf",
+    "lat": -33.7236,
+    "lng": 18.4422,
+    "description": "Long, gently sloping Atlantic beach north of Cape Town. Reliable for kob and white steenbras at dawn and dusk; lighter tackle works for galjoen along the rockier sections.",
+    "beginnerFriendly": true,
+    "permit": "Recreational saltwater permit required."
+  },
+  {
+    "id": "yzerfontein",
+    "name": "Yzerfontein — Schaapen Island side",
+    "type": "Rock & surf",
+    "lat": -33.3422,
+    "lng": 18.1539,
+    "description": "West Coast village with quality rock and surf fishing on either side of the slipway. Galjoen on the rocks in winter, kob and white steenbras on the beach. Watch your footing on the kelp-covered ledges.",
+    "beginnerFriendly": false,
+    "permit": "Recreational saltwater permit required. Galjoen has a strict closed season — check current dates."
+  },
+  {
+    "id": "langebaan-lagoon",
+    "name": "Langebaan Lagoon",
+    "type": "Estuary",
+    "lat": -33.0903,
+    "lng": 18.0383,
+    "description": "Sheltered lagoon ideal for light tackle. Grunter, white steenbras and the occasional leervis. Most of the lagoon is inside the West Coast National Park MPA — fishing is restricted to designated zones only.",
+    "beginnerFriendly": true,
+    "permit": "Park entry fee plus recreational saltwater permit. Strict MPA zoning — check West Coast NP rules before fishing."
+  },
+  {
+    "id": "pringle-bay",
+    "name": "Pringle Bay",
+    "type": "Rock & beach",
+    "lat": -34.3447,
+    "lng": 18.8283,
+    "description": "Quiet bay south-east of Gordon's Bay with mixed rock and sand. Galjoen, hottentot and the occasional musselcracker from the rocks; kob and elf along the beach.",
+    "beginnerFriendly": false,
+    "permit": "Recreational saltwater permit required."
+  },
+  {
+    "id": "rooiels",
+    "name": "Rooi-Els",
+    "type": "Rock angling",
+    "lat": -34.2997,
+    "lng": 18.8211,
+    "description": "Steep, deep ledges along the cliffs of Rooi-Els — a serious rock spot. Yellowtail, geelbek and kob are the prizes; the swell and rugged access keep all but experienced anglers away.",
+    "beginnerFriendly": false,
+    "permit": "Recreational saltwater permit required. Always fish with a partner — exposed and unforgiving."
+  },
+  {
+    "id": "hermanus-new-harbour",
+    "name": "Hermanus — New Harbour",
+    "type": "Harbour",
+    "lat": -34.4197,
+    "lng": 19.2311,
+    "description": "Working harbour east of the Cape with reliable wall fishing. Hottentot, panga and steentjies year-round; baby kob and snoek inside the harbour during their runs. Easy access for families.",
+    "beginnerFriendly": true,
+    "permit": "Recreational saltwater permit required. Whale season (Jun–Nov) draws crowds — arrive early."
+  },
+  {
+    "id": "witsand-breede",
+    "name": "Witsand — Breede River Mouth",
+    "type": "Estuary",
+    "lat": -34.4019,
+    "lng": 20.8419,
+    "description": "Breede River mouth — South Africa's most famous kob estuary. Big dusky kob on live mullet, plus garrick on lures. Boat or wading angling; most of the estuary has strict bag and size limits.",
+    "beginnerFriendly": true,
+    "permit": "Recreational saltwater permit required. Check current Breede River kob slot limits before fishing."
+  },
+  {
+    "id": "cape-agulhas",
+    "name": "Cape Agulhas",
+    "type": "Rock angling",
+    "lat": -34.8336,
+    "lng": 20.0006,
+    "description": "Africa's southernmost tip — broad, low-lying rock platforms dotted with gullies. Galjoen, hottentot and white musselcracker. Wind-blown most days; pick a calm window.",
+    "beginnerFriendly": false,
+    "permit": "Recreational saltwater permit required. Inside the Agulhas National Park — check fishing zones."
+  },
+  {
+    "id": "stilbaai",
+    "name": "Stilbaai — Goukou River",
+    "type": "Estuary",
+    "lat": -34.3700,
+    "lng": 21.4172,
+    "description": "Sheltered Goukou River estuary on the Garden Route side. Light-tackle estuary fishing for grunter, white steenbras and leervis. Great family destination with plenty of bank access.",
+    "beginnerFriendly": true,
+    "permit": "Recreational saltwater permit required. Catch-and-release is encouraged — the system is small and pressured."
   }
 ]

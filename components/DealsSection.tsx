@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import Reveal from "./Reveal";
 import dealsData from "@/content/deals.json";
 
@@ -21,8 +24,16 @@ const tierClass: Record<Tier, string> = {
   pro: "bg-coral/15 text-coral"
 };
 
+const PREVIEW_CATEGORIES = 2;
+
 export default function DealsSection() {
   const { categories, lastUpdated } = dealsData;
+  const [expanded, setExpanded] = useState(false);
+  const visibleCategories = expanded
+    ? categories
+    : categories.slice(0, PREVIEW_CATEGORIES);
+  const hidden = categories.length - PREVIEW_CATEGORIES;
+
   return (
     <section id="deals" className="scroll-mt-20 py-20 md:py-28 bg-ocean/[0.035]">
       <div className="container-narrow">
@@ -44,7 +55,7 @@ export default function DealsSection() {
         </Reveal>
 
         <div className="mt-12 space-y-16">
-          {categories.map((cat) => (
+          {visibleCategories.map((cat) => (
             <Reveal key={cat.id}>
               <div>
                 <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-ocean/15 pb-3">
@@ -114,6 +125,33 @@ export default function DealsSection() {
             </Reveal>
           ))}
         </div>
+
+        {hidden > 0 && (
+          <div className="mt-12 flex justify-center">
+            <button
+              type="button"
+              onClick={() => setExpanded((v) => !v)}
+              className="btn-ghost text-sm"
+              aria-expanded={expanded}
+            >
+              {expanded
+                ? "Show fewer categories"
+                : `See all ${categories.length} gear categories`}
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                className={`ml-1 inline-block transition-transform ${expanded ? "rotate-180" : ""}`}
+                aria-hidden
+              >
+                <path d="M6 9l6 6 6-6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );
