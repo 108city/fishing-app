@@ -1,5 +1,4 @@
 {
   "/api/conditions/route": "app/api/conditions/route.js",
-  "/out/route": "app/out/route.js",
   "/page": "app/page.js"
 }
