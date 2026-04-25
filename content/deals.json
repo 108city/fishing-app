@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24",
+  "lastUpdated": "2026-04-25",
   "categories": [
     {
       "id": "rods",
@@ -16,7 +16,7 @@
           "salePrice": 599,
           "currency": "ZAR",
           "retailer": "Takealot",
-          "url": "https://www.takealot.com/all?qsearch=rovex+airstrike"
+          "url": "https://www.takealot.com/all?qsearch=rovex+airstrike+light+spin+rod"
         },
         {
           "id": "kingfisher-classic-surf",
@@ -28,7 +28,7 @@
           "salePrice": 899,
           "currency": "ZAR",
           "retailer": "Sportsmans Warehouse",
-          "url": "https://www.sportsmanswarehouse.co.za/"
+          "url": "https://www.sportsmanswarehouse.co.za/?s=kingfisher+classic+surf+rod"
         },
         {
           "id": "shimano-catana-spin",
@@ -40,7 +40,7 @@
           "salePrice": 1099,
           "currency": "ZAR",
           "retailer": "Takealot",
-          "url": "https://www.takealot.com/all?qsearch=shimano+catana"
+          "url": "https://www.takealot.com/all?qsearch=shimano+catana+fx+spinning+rod"
         },
         {
           "id": "daiwa-crossfire-travel",
@@ -51,8 +51,8 @@
           "originalPrice": 1899,
           "salePrice": 1499,
           "currency": "ZAR",
-          "retailer": "African Outdoor",
-          "url": "https://africanoutdoor.co.za/"
+          "retailer": "Sportsmans Warehouse",
+          "url": "https://www.sportsmanswarehouse.co.za/?s=daiwa+crossfire+travel+rod"
         },
         {
           "id": "penn-wrath-boat",
@@ -64,7 +64,7 @@
           "salePrice": 1799,
           "currency": "ZAR",
           "retailer": "Sportsmans Warehouse",
-          "url": "https://www.sportsmanswarehouse.co.za/"
+          "url": "https://www.sportsmanswarehouse.co.za/?s=penn+wrath+boat+rod"
         }
       ]
     },
@@ -83,7 +83,7 @@
           "salePrice": 1099,
           "currency": "ZAR",
           "retailer": "Sportsmans Warehouse",
-          "url": "https://www.sportsmanswarehouse.co.za/"
+          "url": "https://www.sportsmanswarehouse.co.za/?s=shimano+sienna+4000+fg"
         },
         {
           "id": "rovex-powerspin-4000",
@@ -95,7 +95,7 @@
           "salePrice": 549,
           "currency": "ZAR",
           "retailer": "Takealot",
-          "url": "https://www.takealot.com/all?qsearch=rovex+powerspin"
+          "url": "https://www.takealot.com/all?qsearch=rovex+powerspin+4000"
         },
         {
           "id": "penn-battle-iii-5000",
@@ -106,8 +106,8 @@
           "originalPrice": 3499,
           "salePrice": 2899,
           "currency": "ZAR",
-          "retailer": "African Outdoor",
-          "url": "https://africanoutdoor.co.za/"
+          "retailer": "Sportsmans Warehouse",
+          "url": "https://www.sportsmanswarehouse.co.za/?s=penn+battle+iii+5000"
         },
         {
           "id": "daiwa-bg-mq-4000",
@@ -119,7 +119,7 @@
           "salePrice": 3299,
           "currency": "ZAR",
           "retailer": "Sportsmans Warehouse",
-          "url": "https://www.sportsmanswarehouse.co.za/"
+          "url": "https://www.sportsmanswarehouse.co.za/?s=daiwa+bg+mq+4000"
         },
         {
           "id": "shimano-stradic-fm-5000",
@@ -130,8 +130,8 @@
           "originalPrice": 7299,
           "salePrice": 6499,
           "currency": "ZAR",
-          "retailer": "African Outdoor",
-          "url": "https://africanoutdoor.co.za/"
+          "retailer": "Sportsmans Warehouse",
+          "url": "https://www.sportsmanswarehouse.co.za/?s=shimano+stradic+fm+5000"
         },
         {
           "id": "shimano-saragosa-sw-8000",
@@ -143,7 +143,7 @@
           "salePrice": 7999,
           "currency": "ZAR",
           "retailer": "Sportsmans Warehouse",
-          "url": "https://www.sportsmanswarehouse.co.za/"
+          "url": "https://www.sportsmanswarehouse.co.za/?s=shimano+saragosa+sw+8000"
         }
       ]
     },
@@ -162,7 +162,7 @@
           "salePrice": 249,
           "currency": "ZAR",
           "retailer": "Takealot",
-          "url": "https://www.takealot.com/all?qsearch=berkley+trilene+big+game"
+          "url": "https://www.takealot.com/all?qsearch=berkley+trilene+big+game+mono"
         },
         {
           "id": "daiwa-jbraid-x8",
@@ -173,8 +173,8 @@
           "originalPrice": 749,
           "salePrice": 599,
           "currency": "ZAR",
-          "retailer": "African Outdoor",
-          "url": "https://africanoutdoor.co.za/"
+          "retailer": "Sportsmans Warehouse",
+          "url": "https://www.sportsmanswarehouse.co.za/?s=daiwa+jbraid+x8"
         },
         {
           "id": "sufix-832-braid",
@@ -186,7 +186,7 @@
           "salePrice": 849,
           "currency": "ZAR",
           "retailer": "Sportsmans Warehouse",
-          "url": "https://www.sportsmanswarehouse.co.za/"
+          "url": "https://www.sportsmanswarehouse.co.za/?s=sufix+832+advanced+superline"
         },
         {
           "id": "powerpro-super-slick-v2",
@@ -197,8 +197,8 @@
           "originalPrice": 1199,
           "salePrice": 999,
           "currency": "ZAR",
-          "retailer": "African Outdoor",
-          "url": "https://africanoutdoor.co.za/"
+          "retailer": "Takealot",
+          "url": "https://www.takealot.com/all?qsearch=powerpro+super+8+slick+v2"
         },
         {
           "id": "seaguar-blue-label-fluoro",
@@ -210,7 +210,7 @@
           "salePrice": 699,
           "currency": "ZAR",
           "retailer": "Sportsmans Warehouse",
-          "url": "https://www.sportsmanswarehouse.co.za/"
+          "url": "https://www.sportsmanswarehouse.co.za/?s=seaguar+blue+label+fluorocarbon+leader"
         }
       ]
     },
@@ -229,7 +229,7 @@
           "salePrice": 189,
           "currency": "ZAR",
           "retailer": "Sportsmans Warehouse",
-          "url": "https://www.sportsmanswarehouse.co.za/"
+          "url": "https://www.sportsmanswarehouse.co.za/?s=halco+roosta+popper+105"
         },
         {
           "id": "storm-wildeye-swim-shad",
@@ -241,7 +241,7 @@
           "salePrice": 149,
           "currency": "ZAR",
           "retailer": "Takealot",
-          "url": "https://www.takealot.com/all?qsearch=storm+wildeye"
+          "url": "https://www.takealot.com/all?qsearch=storm+wildeye+swim+shad+3pack"
         },
         {
           "id": "rapala-xrap-magnum-15",
@@ -252,8 +252,8 @@
           "originalPrice": 349,
           "salePrice": 299,
           "currency": "ZAR",
-          "retailer": "African Outdoor",
-          "url": "https://africanoutdoor.co.za/"
+          "retailer": "Sportsmans Warehouse",
+          "url": "https://www.sportsmanswarehouse.co.za/?s=rapala+xrap+magnum+15"
         },
         {
           "id": "berkley-gulp-shrimp",
@@ -265,7 +265,7 @@
           "salePrice": 169,
           "currency": "ZAR",
           "retailer": "Takealot",
-          "url": "https://www.takealot.com/all?qsearch=berkley+gulp+shrimp"
+          "url": "https://www.takealot.com/all?qsearch=berkley+gulp+saltwater+shrimp"
         },
         {
           "id": "daiwa-salt-pro-minnow",
@@ -277,7 +277,7 @@
           "salePrice": 349,
           "currency": "ZAR",
           "retailer": "Sportsmans Warehouse",
-          "url": "https://www.sportsmanswarehouse.co.za/"
+          "url": "https://www.sportsmanswarehouse.co.za/?s=daiwa+salt+pro+minnow+sinking"
         },
         {
           "id": "maria-loaded-stickbait",
@@ -288,8 +288,8 @@
           "originalPrice": 699,
           "salePrice": 599,
           "currency": "ZAR",
-          "retailer": "African Outdoor",
-          "url": "https://africanoutdoor.co.za/"
+          "retailer": "Sportsmans Warehouse",
+          "url": "https://www.sportsmanswarehouse.co.za/?s=maria+loaded+stickbait+f180"
         }
       ]
     },
@@ -308,7 +308,7 @@
           "salePrice": 59,
           "currency": "ZAR",
           "retailer": "Sportsmans Warehouse",
-          "url": "https://www.sportsmanswarehouse.co.za/"
+          "url": "https://www.sportsmanswarehouse.co.za/?s=hayabusa+sabiki+rig+ex121"
         },
         {
           "id": "kingfisher-bait-jig-sabiki",
@@ -320,7 +320,7 @@
           "salePrice": 49,
           "currency": "ZAR",
           "retailer": "Sportsmans Warehouse",
-          "url": "https://www.sportsmanswarehouse.co.za/"
+          "url": "https://www.sportsmanswarehouse.co.za/?s=kingfisher+bait+jig+sabiki"
         },
         {
           "id": "mustad-demon-circle-4-0",
@@ -332,7 +332,7 @@
           "salePrice": 89,
           "currency": "ZAR",
           "retailer": "Takealot",
-          "url": "https://www.takealot.com/all?qsearch=mustad+demon+circle"
+          "url": "https://www.takealot.com/all?qsearch=mustad+demon+perfect+circle+hooks"
         },
         {
           "id": "owner-mosquito-hooks",
@@ -343,8 +343,8 @@
           "originalPrice": 169,
           "salePrice": 139,
           "currency": "ZAR",
-          "retailer": "African Outdoor",
-          "url": "https://africanoutdoor.co.za/"
+          "retailer": "Takealot",
+          "url": "https://www.takealot.com/all?qsearch=owner+mosquito+hooks"
         },
         {
           "id": "spro-power-swivels",
@@ -356,7 +356,7 @@
           "salePrice": 79,
           "currency": "ZAR",
           "retailer": "Sportsmans Warehouse",
-          "url": "https://www.sportsmanswarehouse.co.za/"
+          "url": "https://www.sportsmanswarehouse.co.za/?s=spro+power+swivels"
         },
         {
           "id": "vmc-inline-single-hooks",
@@ -367,8 +367,8 @@
           "originalPrice": 199,
           "salePrice": 169,
           "currency": "ZAR",
-          "retailer": "African Outdoor",
-          "url": "https://africanoutdoor.co.za/"
+          "retailer": "Sportsmans Warehouse",
+          "url": "https://www.sportsmanswarehouse.co.za/?s=vmc+tournament+inline+single+hooks"
         },
         {
           "id": "mustad-penetrator-8-0",
@@ -380,7 +380,7 @@
           "salePrice": 119,
           "currency": "ZAR",
           "retailer": "Sportsmans Warehouse",
-          "url": "https://www.sportsmanswarehouse.co.za/"
+          "url": "https://www.sportsmanswarehouse.co.za/?s=mustad+penetrator+hooks+80"
         }
       ]
     },
@@ -399,7 +399,7 @@
           "salePrice": 149,
           "currency": "ZAR",
           "retailer": "Takealot",
-          "url": "https://www.takealot.com/all?qsearch=eagle+claw+pliers"
+          "url": "https://www.takealot.com/all?qsearch=eagle+claw+fishing+pliers"
         },
         {
           "id": "berkley-line-snippers",
@@ -411,7 +411,7 @@
           "salePrice": 89,
           "currency": "ZAR",
           "retailer": "Sportsmans Warehouse",
-          "url": "https://www.sportsmanswarehouse.co.za/"
+          "url": "https://www.sportsmanswarehouse.co.za/?s=berkley+line+snippers"
         },
         {
           "id": "plano-3700-pro-latch",
@@ -423,7 +423,7 @@
           "salePrice": 349,
           "currency": "ZAR",
           "retailer": "Sportsmans Warehouse",
-          "url": "https://www.sportsmanswarehouse.co.za/"
+          "url": "https://www.sportsmanswarehouse.co.za/?s=plano+3700+prolatch+stowaway"
         },
         {
           "id": "petzl-tikkina-headlamp",
@@ -435,7 +435,7 @@
           "salePrice": 449,
           "currency": "ZAR",
           "retailer": "Cape Union Mart",
-          "url": "https://www.capeunionmart.co.za/"
+          "url": "https://www.capeunionmart.co.za/?s=petzl+tikkina+headlamp"
         },
         {
           "id": "rapala-magnetic-pliers",
@@ -446,8 +446,8 @@
           "originalPrice": 849,
           "salePrice": 699,
           "currency": "ZAR",
-          "retailer": "African Outdoor",
-          "url": "https://africanoutdoor.co.za/"
+          "retailer": "Sportsmans Warehouse",
+          "url": "https://www.sportsmanswarehouse.co.za/?s=rapala+magnetic+release+pliers"
         },
         {
           "id": "boga-grip-15lb",
@@ -458,8 +458,8 @@
           "originalPrice": 1799,
           "salePrice": 1499,
           "currency": "ZAR",
-          "retailer": "African Outdoor",
-          "url": "https://africanoutdoor.co.za/"
+          "retailer": "Sportsmans Warehouse",
+          "url": "https://www.sportsmanswarehouse.co.za/?s=boga+grip+lip+grip"
         }
       ]
     }

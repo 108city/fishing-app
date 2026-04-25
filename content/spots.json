@@ -7,7 +7,12 @@
     "lng": 18.4486,
     "description": "Working fishing harbour on the False Bay coast. Pier and harbour wall access, good for hottentot, galjoen and the occasional yellowtail. Family-friendly and easy shore access.",
     "beginnerFriendly": true,
-    "permit": "A recreational saltwater fishing permit (post office) is required."
+    "permit": "A recreational saltwater fishing permit (post office) is required.",
+    "microSpots": [
+      "Outer harbour wall on the eastern side — best at high tide for hottentot and panga.",
+      "Tip of the main jetty — light tackle for steentjies; live mussel works.",
+      "The corner where the slipway meets the inner wall — kob in late autumn evenings."
+    ]
   },
   {
     "id": "millers-point",
@@ -17,7 +22,12 @@
     "lng": 18.4756,
     "description": "Classic Cape rock-angling venue south of Simon's Town. Deep water close in — targets include kob, yellowtail and geelbek. Watch the swell; not a spot for novices on a pushing tide.",
     "beginnerFriendly": false,
-    "permit": "Recreational saltwater permit required. Falls within the Table Mountain National Park MPA — check current zoning."
+    "permit": "Recreational saltwater permit required. Falls within the Table Mountain National Park MPA — check current zoning.",
+    "microSpots": [
+      "The point itself, accessed from the parking area — yellowtail when the south-easter blows.",
+      "Slipway gully (north side of the parking) — sheltered option for hottentot in heavy swell.",
+      "Castle Rocks ledge, 200 m south — deep water for kob; only on a low and dropping swell."
+    ]
   },
   {
     "id": "simonstown-jetty",
@@ -27,7 +37,12 @@
     "lng": 18.4326,
     "description": "Sheltered jetty fishing inside Simon's Town naval harbour area. Hottentot, steentjies and panga from the wall. Good winter option when the rocks are blown out.",
     "beginnerFriendly": true,
-    "permit": "Recreational saltwater permit required."
+    "permit": "Recreational saltwater permit required.",
+    "microSpots": [
+      "Long Beach side of the jetty (south-facing) — most consistent for hottentot.",
+      "The corner where the wooden walkway meets the wall — deeper water at high tide.",
+      "Inside the small craft mooring area — light sabikis for maasbanker bait."
+    ]
   },
   {
     "id": "strand-beach",
@@ -37,7 +52,12 @@
     "lng": 18.8260,
     "description": "Long sandy surf beach on the eastern side of False Bay. Kob, elf (shad) and white steenbras are the main targets. Best fished early morning or late afternoon on a pushing tide.",
     "beginnerFriendly": true,
-    "permit": "Recreational saltwater permit required. Observe seasonal closures for shad (elf)."
+    "permit": "Recreational saltwater permit required. Observe seasonal closures for shad (elf).",
+    "microSpots": [
+      "Macassar dunes end (eastern Strand) — quieter, deep gully runs hard against the beach for kob.",
+      "In front of the lifesaver club — easy parking, good for shad on a pushing tide at dawn.",
+      "Lourens River mouth (western end) — leervis and grunter on a strong incoming tide."
+    ]
   },
   {
     "id": "muizenberg",
@@ -47,7 +67,12 @@
     "lng": 18.4706,
     "description": "Gentle, wide beach — ideal for beginners learning to cast a surf rod. Shad, kob, and occasional galjoen on a running tide. Shark spotters operate here; heed the flags.",
     "beginnerFriendly": true,
-    "permit": "Recreational saltwater permit required."
+    "permit": "Recreational saltwater permit required.",
+    "microSpots": [
+      "In front of the colourful huts — easy access, gully forms here on most tides.",
+      "Eastern end towards Sunrise Beach — bigger gullies, less swimmer traffic, better for surf rods.",
+      "Sandvlei mouth (when open to the sea) — leervis chasing baitfish on the pushing tide."
+    ]
   },
   {
     "id": "cape-point",
@@ -57,7 +82,12 @@
     "lng": 18.4964,
     "description": "Serious ledge fishing at the tip of the Cape Peninsula. Big yellowtail and kob are possible but the approach is long, the ledges exposed, and the swell unforgiving. For experienced anglers only.",
     "beginnerFriendly": false,
-    "permit": "Park conservation fee plus recreational saltwater permit. Much of the area is within the MPA — check zoning before fishing."
+    "permit": "Park conservation fee plus recreational saltwater permit. Much of the area is within the MPA — check zoning before fishing.",
+    "microSpots": [
+      "Diaz Beach (down the wooden steps) — beach gully for kob and shad away from the cliffs.",
+      "Rooikrans (eastern False Bay side, separate access) — the famous yellowtail ledge.",
+      "Pegram's Point ledges — only in 1.0 m swell or less; never alone."
+    ]
   },
   {
     "id": "hout-bay-harbour",
@@ -67,7 +97,12 @@
     "lng": 18.3486,
     "description": "Harbour wall and breakwater access on the Atlantic side. Hottentot, mackerel and the occasional snoek from the wall during winter runs.",
     "beginnerFriendly": true,
-    "permit": "Recreational saltwater permit required."
+    "permit": "Recreational saltwater permit required.",
+    "microSpots": [
+      "Mariner's Wharf side of the wall — easiest access, good for hottentot.",
+      "Outer breakwater (long walk past the slipway) — snoek on hand-line during May–July runs.",
+      "Inner harbour near the trawlers — mackerel and maasbanker for bait."
+    ]
   },
   {
     "id": "milnerton-lagoon",
@@ -77,7 +112,12 @@
     "lng": 18.4846,
     "description": "Diep River mouth and lagoon system. Light tackle for white steenbras, leervis (garrick) and grunter. Best on an incoming tide, working lures or live prawn.",
     "beginnerFriendly": true,
-    "permit": "Recreational saltwater permit required. Check current local regulations on bait collection."
+    "permit": "Recreational saltwater permit required. Check current local regulations on bait collection.",
+    "microSpots": [
+      "Mouth area on a pushing tide — leervis chase mullet through the channel.",
+      "Wooden bridge channel — light spinning gear for white steenbras at dusk.",
+      "Lagoon side near the lighthouse — sheltered option in summer south-easter."
+    ]
   },
   {
     "id": "kommetjie",
@@ -87,7 +127,12 @@
     "lng": 18.3283,
     "description": "Long sandy stretch running up toward Noordhoek, with rocky headlands at the Kom itself. Kob and shad on the beach, hottentot and galjoen from the rocks. Exposed to Atlantic swell.",
     "beginnerFriendly": true,
-    "permit": "Recreational saltwater permit required."
+    "permit": "Recreational saltwater permit required.",
+    "microSpots": [
+      "The Kom itself (low tide) — sheltered tidal pool ledges for hottentot and galjoen.",
+      "Long Beach in front of the parking — sandy gullies hold kob at dawn.",
+      "Slangkop point (1 km north) — galjoen on the corner ledges in winter."
+    ]
   },
   {
     "id": "gordons-bay",
@@ -97,7 +142,12 @@
     "lng": 18.8594,
     "description": "Sheltered harbour wall fishing at the eastern end of False Bay. Hottentot, steentjies and panga are the regulars. Good winter spot when the south-easter is blowing.",
     "beginnerFriendly": true,
-    "permit": "Recreational saltwater permit required."
+    "permit": "Recreational saltwater permit required.",
+    "microSpots": [
+      "Outer wall facing the mountain — deep water close in, best for hottentot.",
+      "Tip of the wall — kob on live mullet at dusk.",
+      "Old Harbour beach side — light tackle for steentjies and karanteen."
+    ]
   },
   {
     "id": "bloubergstrand",
@@ -107,7 +157,12 @@
     "lng": 18.4661,
     "description": "Iconic Atlantic surf beach with the Table Mountain view. White steenbras, kob and elf along the trough. Often blown clean by the south-easter, so pick your day.",
     "beginnerFriendly": true,
-    "permit": "Recreational saltwater permit required."
+    "permit": "Recreational saltwater permit required.",
+    "microSpots": [
+      "Big Bay end — sandy gully forms at low tide; kob and elf at first light.",
+      "In front of On the Rocks restaurant — deeper trough, less wind on a south-easter.",
+      "Towards the wreck of the Antipolis (north of Big Bay) — galjoen on the rocks."
+    ]
   },
   {
     "id": "melkbosstrand",
@@ -117,7 +172,12 @@
     "lng": 18.4422,
     "description": "Long, gently sloping Atlantic beach north of Cape Town. Reliable for kob and white steenbras at dawn and dusk; lighter tackle works for galjoen along the rockier sections.",
     "beginnerFriendly": true,
-    "permit": "Recreational saltwater permit required."
+    "permit": "Recreational saltwater permit required.",
+    "microSpots": [
+      "Off the slipway parking (main beach) — clean sand, deep gully on a low tide.",
+      "Rocky section south of the slipway — galjoen on red bait in winter.",
+      "Van Riebeeckstrand (3 km north) — quieter, white steenbras at dusk."
+    ]
   },
   {
     "id": "yzerfontein",
@@ -127,7 +187,12 @@
     "lng": 18.1539,
     "description": "West Coast village with quality rock and surf fishing on either side of the slipway. Galjoen on the rocks in winter, kob and white steenbras on the beach. Watch your footing on the kelp-covered ledges.",
     "beginnerFriendly": false,
-    "permit": "Recreational saltwater permit required. Galjoen has a strict closed season — check current dates."
+    "permit": "Recreational saltwater permit required. Galjoen has a strict closed season — check current dates.",
+    "microSpots": [
+      "Schaapen Island side ledges (north of the slipway) — galjoen on red bait when in season.",
+      "16 Mile Beach (south of the harbour) — long surf for white steenbras at dawn.",
+      "The harbour wall itself — sheltered hottentot fishing on a windy day."
+    ]
   },
   {
     "id": "langebaan-lagoon",
@@ -137,7 +202,12 @@
     "lng": 18.0383,
     "description": "Sheltered lagoon ideal for light tackle. Grunter, white steenbras and the occasional leervis. Most of the lagoon is inside the West Coast National Park MPA — fishing is restricted to designated zones only.",
     "beginnerFriendly": true,
-    "permit": "Park entry fee plus recreational saltwater permit. Strict MPA zoning — check West Coast NP rules before fishing."
+    "permit": "Park entry fee plus recreational saltwater permit. Strict MPA zoning — check West Coast NP rules before fishing.",
+    "microSpots": [
+      "Kraalbaai zone (designated MPA fishing area) — grunter on prawn at high tide.",
+      "Geelbek channel area (where permitted) — leervis on light spin gear.",
+      "Always confirm current zoning at the park gate before unpacking rods."
+    ]
   },
   {
     "id": "pringle-bay",
@@ -147,7 +217,12 @@
     "lng": 18.8283,
     "description": "Quiet bay south-east of Gordon's Bay with mixed rock and sand. Galjoen, hottentot and the occasional musselcracker from the rocks; kob and elf along the beach.",
     "beginnerFriendly": false,
-    "permit": "Recreational saltwater permit required."
+    "permit": "Recreational saltwater permit required.",
+    "microSpots": [
+      "Hangklip side ledges (south end of the bay) — galjoen and white musselcracker.",
+      "Main beach in the middle of the bay — kob at dusk on a pushing tide.",
+      "Stoney Point area (penguin colony — fish away from it) — sheltered hottentot ledges."
+    ]
   },
   {
     "id": "rooiels",
@@ -157,7 +232,12 @@
     "lng": 18.8211,
     "description": "Steep, deep ledges along the cliffs of Rooi-Els — a serious rock spot. Yellowtail, geelbek and kob are the prizes; the swell and rugged access keep all but experienced anglers away.",
     "beginnerFriendly": false,
-    "permit": "Recreational saltwater permit required. Always fish with a partner — exposed and unforgiving."
+    "permit": "Recreational saltwater permit required. Always fish with a partner — exposed and unforgiving.",
+    "microSpots": [
+      "The 'Pulpit' rock (well-known landmark, ask a local) — yellowtail on live bait.",
+      "Northern ledges below the village — geelbek at night on a calm sea.",
+      "Always monitor the swell — never fish here alone."
+    ]
   },
   {
     "id": "hermanus-new-harbour",
@@ -167,7 +247,12 @@
     "lng": 19.2311,
     "description": "Working harbour east of the Cape with reliable wall fishing. Hottentot, panga and steentjies year-round; baby kob and snoek inside the harbour during their runs. Easy access for families.",
     "beginnerFriendly": true,
-    "permit": "Recreational saltwater permit required. Whale season (Jun–Nov) draws crowds — arrive early."
+    "permit": "Recreational saltwater permit required. Whale season (Jun–Nov) draws crowds — arrive early.",
+    "microSpots": [
+      "Outer wall (north end) — most consistent for hottentot and panga.",
+      "Inside corner near the slipway — baby kob on chokka strips.",
+      "Old Harbour rocks (below the village, separate access) — galjoen in winter."
+    ]
   },
   {
     "id": "witsand-breede",
@@ -177,7 +262,12 @@
     "lng": 20.8419,
     "description": "Breede River mouth — South Africa's most famous kob estuary. Big dusky kob on live mullet, plus garrick on lures. Boat or wading angling; most of the estuary has strict bag and size limits.",
     "beginnerFriendly": true,
-    "permit": "Recreational saltwater permit required. Check current Breede River kob slot limits before fishing."
+    "permit": "Recreational saltwater permit required. Check current Breede River kob slot limits before fishing.",
+    "microSpots": [
+      "Bridge area at Malgas (40 km upriver) — live mullet on a dropping tide for trophy kob.",
+      "Mouth at Witsand on a pushing tide — garrick on poppers.",
+      "Sandbanks 5–10 km from the mouth — drift-fishing from a boat."
+    ]
   },
   {
     "id": "cape-agulhas",
@@ -187,7 +277,12 @@
     "lng": 20.0006,
     "description": "Africa's southernmost tip — broad, low-lying rock platforms dotted with gullies. Galjoen, hottentot and white musselcracker. Wind-blown most days; pick a calm window.",
     "beginnerFriendly": false,
-    "permit": "Recreational saltwater permit required. Inside the Agulhas National Park — check fishing zones."
+    "permit": "Recreational saltwater permit required. Inside the Agulhas National Park — check fishing zones.",
+    "microSpots": [
+      "Below the lighthouse — flat ledges with gullies; galjoen on red bait.",
+      "Suiderstrand side (1 km west) — sandy gullies for white steenbras.",
+      "Always confirm the park's current fishing zoning at reception."
+    ]
   },
   {
     "id": "stilbaai",
@@ -197,6 +292,107 @@
     "lng": 21.4172,
     "description": "Sheltered Goukou River estuary on the Garden Route side. Light-tackle estuary fishing for grunter, white steenbras and leervis. Great family destination with plenty of bank access.",
     "beginnerFriendly": true,
-    "permit": "Recreational saltwater permit required. Catch-and-release is encouraged — the system is small and pressured."
+    "permit": "Recreational saltwater permit required. Catch-and-release is encouraged — the system is small and pressured.",
+    "microSpots": [
+      "Bank below the bridge — grunter on prawn at high tide.",
+      "Mouth area at Stilbaai itself — leervis chasing mullet on incoming tide.",
+      "Upriver towards Melkhoutfontein — quiet stretches for white steenbras."
+    ]
+  },
+  {
+    "id": "theewaterskloof-dam",
+    "name": "Theewaterskloof Dam",
+    "type": "Freshwater dam",
+    "lat": -34.0667,
+    "lng": 19.2333,
+    "description": "Western Cape's largest dam, a short drive from Cape Town. Largemouth bass, common carp and bluegill. Bank fishing is allowed in designated areas; boats need to launch at the official slipways.",
+    "beginnerFriendly": true,
+    "permit": "Provincial freshwater permit required (CapeNature). Some properties along the dam are private — confirm access.",
+    "freshwater": true,
+    "microSpots": [
+      "Villiersdorp side slipway — easy bank access; bass on plastics around the inlet.",
+      "Eikenhof Dam wall area — deeper water for carp on mealies and corn.",
+      "Wolwekloof bays — shallow weedy edges for bass topwater at dawn."
+    ]
+  },
+  {
+    "id": "clanwilliam-dam",
+    "name": "Clanwilliam Dam",
+    "type": "Freshwater dam",
+    "lat": -32.1833,
+    "lng": 18.9000,
+    "description": "Cederberg dam famous for indigenous Clanwilliam yellowfish — a powerful native cyprinid. Bass and carp also present. The yellowfish here are vulnerable; barbless hooks and catch-and-release are strongly encouraged.",
+    "beginnerFriendly": true,
+    "permit": "CapeNature freshwater permit required. Yellowfish: catch-and-release recommended; check current regulations.",
+    "freshwater": true,
+    "microSpots": [
+      "Below the dam wall in the Olifants River — yellowfish on small nymphs and dropshot.",
+      "Public slipway area — bass on Texas-rigged worms in the rocky margins.",
+      "Inflow (eastern shore) — carp on bread and corn after rains."
+    ]
+  },
+  {
+    "id": "berg-river-paarl",
+    "name": "Berg River — Paarl/Wellington",
+    "type": "River",
+    "lat": -33.7333,
+    "lng": 18.9667,
+    "description": "Slow-flowing Boland river with bass, bluegill and indigenous Cape kurper. Wadeable in many places. Most accessible from public bridges and the Berg River Resort.",
+    "beginnerFriendly": true,
+    "permit": "CapeNature freshwater permit required. Some sections are on private farmland — ask permission.",
+    "freshwater": true,
+    "microSpots": [
+      "Behind the Berg River Resort, Paarl — deep pools for bass on jerkbaits.",
+      "Wellington bridge pools — Cape kurper and bluegill on small nymphs.",
+      "Hermon stretch (downstream) — bigger bass, but check land access."
+    ]
+  },
+  {
+    "id": "breede-river-bonnievale",
+    "name": "Breede River — Bonnievale",
+    "type": "River",
+    "lat": -33.9500,
+    "lng": 20.0833,
+    "description": "Fertile section of the Breede River through wine country. Big common carp, largemouth bass and barbel (sharptooth catfish). Many farms along the bank offer day permits and overnight stays.",
+    "beginnerFriendly": true,
+    "permit": "CapeNature freshwater permit required. Most river-front access is via private farms — buy a day permit.",
+    "freshwater": true,
+    "microSpots": [
+      "Deep bends below Bonnievale town — trophy carp on boilies.",
+      "Reedy edges near Robertson — largemouth bass on spinnerbaits.",
+      "Slow pools at dusk — barbel (sharptooth catfish) on chicken liver."
+    ]
+  },
+  {
+    "id": "garden-route-dam",
+    "name": "Garden Route Dam",
+    "type": "Freshwater dam",
+    "lat": -33.9750,
+    "lng": 22.4825,
+    "description": "George's water-supply dam, well managed for recreational fishing. Largemouth bass, bluegill and common carp. Easy bank access along most of the perimeter; boats restricted to electric motors.",
+    "beginnerFriendly": true,
+    "permit": "Permit issued by George Municipality / CapeNature — buy at the dam office or local tackle shop.",
+    "freshwater": true,
+    "microSpots": [
+      "Picnic side near the parking — easy bank for bluegill and small bass.",
+      "Inflow at the eastern end — bigger bass on creature baits in the weeds.",
+      "Dam wall side — carp on the slope into deep water."
+    ]
+  },
+  {
+    "id": "voelvlei-dam",
+    "name": "Voëlvlei Dam",
+    "type": "Freshwater dam",
+    "lat": -33.3500,
+    "lng": 19.0167,
+    "description": "Large dam in the Riebeek valley with healthy bass, carp and bluegill populations. Bank fishing from designated zones; boats welcome at the official slipway. Well-developed picnic and braai facilities.",
+    "beginnerFriendly": true,
+    "permit": "CapeNature freshwater permit + Voëlvlei daily fee (paid at the gate).",
+    "freshwater": true,
+    "microSpots": [
+      "Main slipway and picnic area — easy bank access; carp on corn near the deeper edge.",
+      "Inflow on the north side — bass on plastics and chatterbaits in spring.",
+      "Boat-launching cove — bluegill on worms for the kids."
+    ]
   }
 ]
